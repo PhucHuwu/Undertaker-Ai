@@ -1,5 +1,7 @@
 # UndertakerAi - A RAG Chatbot for "86 - Eighty Six" Light Novel
 
+**UndertakerAi** is a chatbot using Retrieval-Augmented Generation (RAG) technology that allows users to chat and ask questions about the world of the popular light novel **"86 - Eighty Six"** by Asato Asato.
+
 **UndertakerAi** là một chatbot sử dụng kỹ thuật Retrieval-Augmented Generation (RAG), cho phép người dùng trò chuyện và đặt câu hỏi xoay quanh thế giới của light novel nổi tiếng **"86 - Eighty Six"** của tác giả Asato Asato.
 
 ## 🧠 Giới thiệu
@@ -24,7 +26,12 @@
 ├── apikey.py              # File chứa apikey
 │
 ├── README.md
-````
+```
+
+### 📁 Tệp tin chính
+- [dataset.txt](dataset.txt) - Dữ liệu từ light novel gốc (đã xử lý)
+- [build.ipynb](build.ipynb) - Notebook tiền xử lý và xây dựng index
+- [apikey.py](apikey.py) - File chứa apikey
 
 ## ⚙️ Công nghệ sử dụng
 
@@ -45,7 +52,7 @@ cd Undertaker-Ai
 
 ### 2. Tiền xử lý dữ liệu
 
-Chạy file `build.ipynb` để:
+Chạy file [build.ipynb](build.ipynb) để:
 
 * Cắt đoạn văn thành chunks
 * Tạo embedding
@@ -53,15 +60,15 @@ Chạy file `build.ipynb` để:
 
 ### 3. Ví dụ tương tác
 
-```bash
+```text
 > Người dùng: Lena là ai?
 > Bot: Vladilena Millize là một thiếu tá thuộc Cộng hòa San Magnolia, còn được gọi là "Handler One", người chỉ huy binh đoàn Spearhead từ xa qua hệ thống Para-RAID...
 ```
 
 ## 🧩 Cần chuẩn bị
 
-* Dataset gốc từ tiểu thuyết (đã xử lý)
-* API key từ Groq
+* Dataset gốc từ tiểu thuyết (đã xử lý) - xem [dataset.txt](dataset.txt)
+* API key từ [Groq](https://groq.com/) - cần được thêm vào [apikey.py](apikey.py)
 
 ## 📜 Bản quyền
 
