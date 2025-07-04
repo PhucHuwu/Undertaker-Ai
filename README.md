@@ -61,8 +61,16 @@ Chạy file [build.ipynb](build.ipynb) để:
 ### 3. Ví dụ tương tác
 
 ```text
-> Người dùng: Lena là ai?
-> Bot: Vladilena Millize là một thiếu tá thuộc Cộng hòa San Magnolia, còn được gọi là "Handler One", người chỉ huy binh đoàn Spearhead từ xa qua hệ thống Para-RAID...
+> Người dùng: Thông tin của Shin
+> Bot: Thông tin về Shin:
+       * Shin là một thiếu tá trong binh đoàn Spearhead.
+       * Cậu có vẻ bình tĩnh, già dặn và lạnh lùng, không bao giờ bị lung lay.
+       * Cậu có thể đồng bộ với người khác, nghe được tiếng nói của họ và nói chuyện với họ.
+       * Cậu có thể khống chế và tiêu diệt quân địch với kỹ năng chiến đấu cao.
+       * Cậu có một cảm xúc bí mật, mong muốn không quên và được nhớ tới.
+       * Cậu có thể nói những lời không bình thường, ví dụ như đọc kinh thánh.
+       * Cậu có thể kiểm soát và điều chỉnh thiết bị RAID, đồng bộ với người khác.
+       * Cậu có quan hệ đặc biệt với Lena, có thể nói chuyện với cô và hiểu cảm xúc của cô.
 ```
 
 ## 🧩 Cần chuẩn bị
