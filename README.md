@@ -30,7 +30,7 @@
 
 * Python 3.10+
 * LangChain
-* FAISS / Chroma
+* FAISS
 * HuggingFace Transformers
 * SentenceTransformers (embedding)
 
