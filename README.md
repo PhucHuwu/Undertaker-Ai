@@ -12,7 +12,6 @@
 
 - ✅ Hỏi đáp theo ngữ cảnh light novel "86"
 - ✅ Trích xuất thông tin chính xác từ các đoạn văn bản gốc
-- ✅ Tái hiện giọng điệu nhân vật (Shin, Lena, Raiden, v.v.)
 - ✅ Hỗ trợ tiếng Việt
 - ✅ Giao diện CLI hoặc API tương tác
 
