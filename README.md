@@ -10,10 +10,10 @@
 
 ## 🚀 Tính năng
 
-- ✅ Hỏi đáp theo ngữ cảnh light novel "86"
-- ✅ Trích xuất thông tin chính xác từ các đoạn văn bản gốc
-- ✅ Hỗ trợ tiếng Việt
-- ✅ Giao diện CLI hoặc API tương tác
+-   ✅ Hỏi đáp theo ngữ cảnh light novel "86"
+-   ✅ Trích xuất thông tin chính xác từ các đoạn văn bản gốc
+-   ✅ Hỗ trợ tiếng Việt
+-   ✅ Giao diện CLI hoặc API tương tác
 
 ## 📦 Cấu trúc dự án
 
@@ -28,17 +28,18 @@
 ```
 
 ### 📁 Tệp tin chính
-- [dataset.txt](dataset.txt) - Dữ liệu từ light novel gốc (đã xử lý)
-- [build.ipynb](build.ipynb) - Notebook tiền xử lý và xây dựng index
-- [apikey.py](apikey.py) - File chứa apikey
+
+-   [dataset.txt](dataset.txt) - Dữ liệu từ light novel gốc (đã xử lý)
+-   [build.ipynb](build.ipynb) - Notebook tiền xử lý và xây dựng index
+-   [apikey.py](apikey.py) - File chứa apikey
 
 ## ⚙️ Công nghệ sử dụng
 
-* Python 3.10+
-* LangChain
-* FAISS
-* HuggingFace Transformers
-* SentenceTransformers (embedding)
+-   Python 3.10+
+-   LangChain
+-   FAISS
+-   HuggingFace Transformers
+-   SentenceTransformers (embedding)
 
 ## 📄 Hướng dẫn sử dụng
 
@@ -53,9 +54,9 @@ cd Undertaker-Ai
 
 Chạy file [build.ipynb](build.ipynb) để:
 
-* Cắt đoạn văn thành chunks
-* Tạo embedding
-* Lưu trữ vào vector store
+-   Cắt đoạn văn thành chunks
+-   Tạo embedding
+-   Lưu trữ vào vector store
 
 ### 3. Ví dụ tương tác
 
@@ -72,10 +73,13 @@ Chạy file [build.ipynb](build.ipynb) để:
        * Cậu có quan hệ đặc biệt với Lena, có thể nói chuyện với cô và hiểu cảm xúc của cô.
 ```
 
+![Vector Visualization](vector_visualization.png)
+_Hình ảnh minh họa vector space của các đoạn văn trong dataset sau khi được embedding_
+
 ## 🧩 Cần chuẩn bị
 
-* Dataset gốc từ tiểu thuyết (đã xử lý) - xem [dataset.txt](dataset.txt)
-* API key từ [Groq](https://groq.com/) - cần được thêm vào [apikey.py](apikey.py)
+-   Dataset gốc từ tiểu thuyết (đã xử lý) - xem [dataset.txt](dataset.txt)
+-   API key từ [Groq](https://groq.com/) - cần được thêm vào [apikey.py](apikey.py)
 
 ## 📜 Bản quyền
 
