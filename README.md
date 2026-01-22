@@ -2,13 +2,12 @@
 
 ![Knowledge Graph Visualization](graph_preview.png)
 
-This project implements a Retrieval-Augmented Generation (RAG) system using **Microsoft GraphRAG** and **Hawksight-AI Semantica** (library integration) for the novel "86 - Eighty Six".
+This project implements a Retrieval-Augmented Generation (RAG) system using **GraphRAG** for the novel "86 - Eighty Six".
 
 ## Architecture
 
 - **Engine**: Microsoft GraphRAG
 - **LLM**: Mistral Devstral (via OpenRouter)
-- **Data Engineering**: Semantica (Native Pipeline used for initial build)
 - **UI**: Streamlit
 
 ## Setup
